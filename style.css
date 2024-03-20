@@ -102,4 +102,8 @@ main{
     font-weight: bold;
 }
 
-@media screen and (max-width:480px)
+@media screen and (max-width:480px){
+    .text-area, .message{
+        width: auto;
+    }
+}
