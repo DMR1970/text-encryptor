@@ -94,3 +94,12 @@ main{
     font-size: 13px;
     font-weight: bold;
 }
+
+.footer-text{
+    color: #6c757d;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px)
