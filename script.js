@@ -9,9 +9,13 @@ function encryption(stringEncrypted){
         ['o', 'ober'],
         ['u', 'ufat']
     ];
-    stringEncrypted = stringEncrypted.toLowerCase()
+    stringEncrypted = stringEncrypted.toLowerCase();
 
     for(let i = 0; i < conversions.length; i++){
-        
+        if(stringEncrypted.includes(conversions[i][0])){
+            stringEncrypted = stringEncrypted.replaceAll(conversions[i][0], conversions[i][1])
+        }
+
     }
+    return stringEncrypted
 }
