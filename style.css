@@ -35,7 +35,7 @@ main{
 
 .message{
     background: #FFFFFF;
-    background-image: url(/images/Doll.png);
+    background-image: url();
     background-repeat: no-repeat;
     border: none;
     border-radius: 20px;
