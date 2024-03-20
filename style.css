@@ -1,7 +1,40 @@
 *{
-    background: #F3F5FC;
+    background: #edf2fb;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+}
+
+.logo{
+    padding-top: 15px;
+    margin-left: 15px;
+    width: 7%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.message{
+    background: #FFFFFF;
+    background-image: url(/images/);
+
 }
