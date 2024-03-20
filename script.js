@@ -4,6 +4,8 @@ const message = document.querySelector(".message");
 function encryptionBttn(){
     const encryptedText = encryption(textArea.value)
     message.value = encryptedText
+    textArea.value = "";
+    message.style.backgroundImage = "none";
 }
 
 function encryption(stringEncrypted){
