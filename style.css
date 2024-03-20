@@ -75,3 +75,21 @@ main{
     width: 320px;
     margin-left: 20px;
 }
+
+.copy-bttn{
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 65px;
+    width: 320px;
+    margin-left: 125px;
+    margin-top: 440px;
+    position: absolute;
+}
+
+.bottom-info{
+    color: #495057;
+    font-size: 13px;
+    font-weight: bold;
+}
