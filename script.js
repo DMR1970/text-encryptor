@@ -26,3 +26,28 @@ function encryption(stringEncrypted){
     }
     return stringEncrypted
 }
+
+function decryptBttn(){
+    const encryptedText = decrypt(textArea.value)
+    message.value = encryptedText
+    textArea.value = "";
+}
+
+function decrypt(stringDecrypted){
+    let conversions = [
+        ['e', 'enter'],
+        ['i', 'imes'],
+        ['a', 'ai'],
+        ['o', 'ober'],
+        ['u', 'ufat']
+    ];
+    stringDecrypted = stringDecrypted.toLowerCase();
+
+    for(let i = 0; i < conversions.length; i++){
+        if(stringDecrypted.includes(conversions[i][1])){
+            stringDecrypted = stringDecrypted.replaceAll(conversions[i][1], conversions[i][0]);
+        }
+
+    }
+    return stringDecrypted
+}
