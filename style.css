@@ -3,7 +3,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 .logo{
@@ -21,7 +21,7 @@ main{
 .text-area{
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 30px;
     text-transform: lowercase;
 }
 
@@ -35,6 +35,43 @@ main{
 
 .message{
     background: #FFFFFF;
-    background-image: url(/images/);
+    background-image: url(/images/Doll.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    color: #0A3871;
+    margin-left: 95px;
+    margin-top: 20px;
+    padding-left: 10px;
+    position: fixed;
+}
 
+.message:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 15px;
+}
+
+.encryption-bttn{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 65px;
+    width: 320px;
+}
+
+.decrypt-bttn{
+    background: #ced4da;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 65px;
+    width: 320px;
+    margin-left: 20px;
 }
