@@ -3,6 +3,7 @@ const message = document.querySelector(".message");
 
 function encryptionBttn(){
     const encryptedText = encryption(textArea.value)
+    message.value = encryptedText
 }
 
 function encryption(stringEncrypted){
